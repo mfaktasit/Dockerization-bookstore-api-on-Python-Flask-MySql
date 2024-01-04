@@ -10,9 +10,6 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 cd /home/ec2-user/
 mkdir project && cd project
-FOLDER=https://raw.githubusercontent.com/mfaktasit/Dockerization-Bookstore-Api-On-Python-Flask-MySQL/main
-wget $FOLDER/Dockerfile
-wget $FOLDER/bookstore-api.py
+FOLDER=https://raw.githubusercontent.com/mfaktasit/Dockerization-bookstore-api-on-Python-Flask-MySql/tree/main
 wget $FOLDER/docker-compose.yml
-wget $FOLDER/requirements.txt
 docker-compose up -d
