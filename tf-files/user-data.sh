@@ -10,5 +10,5 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 cd /home/ec2-user/
 mkdir project && cd project
-wget https://raw.githubusercontent.com/mfaktasit/Dockerization-bookstore-api-on-Python-Flask-MySql/main/docker-compose.yml
+sudo wget https://raw.githubusercontent.com/mfaktasit/Dockerization-bookstore-api-on-Python-Flask-MySql/main/docker-compose.yml
 docker-compose up -d
