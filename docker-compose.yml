@@ -12,7 +12,7 @@ services:
       - mynetwork
 
   server:
-    build: mfaktas/bookstore-api:latest
+    image: mfaktas/bookstore-api:latest
     restart: always
     depends_on:
       - database
